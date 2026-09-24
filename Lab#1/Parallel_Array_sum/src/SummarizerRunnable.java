@@ -3,7 +3,7 @@ import java.io.IOException;
 import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
 
-// TODO: Rewrite completely
+// This is deliberately written wrong version
 class ParallelSummarizer implements Runnable {
     private byte[] buffer;
     private long numberCount = 0;
