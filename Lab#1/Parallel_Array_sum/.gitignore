@@ -1,0 +1,11 @@
+# Old code archive
+src/Old_code/
+
+# Compiler output
+out/
+!**/src/main/**/out/
+!**/src/test/**/out/
+*.class
+
+# IntelliJ module files (if not sharing .iml)
+*.iml

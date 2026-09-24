@@ -1,0 +1,38 @@
+# --- Global Generated / Large Data Files ---
+numbers.txt
+/Lab\#1/Parallel_Array_sum/numbers.txt
+
+# --- OS Artifacts ---
+.DS_Store
+Thumbs.db
+
+# --- General Editor & IDE Clutter ---
+.vscode/
+
+# Eclipse
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings/
+.springBeans
+.sts4-cache
+bin/
+!**/src/main/**/bin/
+!**/src/test/**/bin/
+
+# NetBeans
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+
+# IntelliJ / JetBrains Global Exclusions
+.idea/shelf/
+.idea/workspace.xml
+.idea/httpRequests/
+.idea/dataSources/
+.idea/dataSources.local.xml
+*.iws
+*.ipr

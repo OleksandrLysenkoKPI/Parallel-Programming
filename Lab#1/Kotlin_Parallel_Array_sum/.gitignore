@@ -1,0 +1,19 @@
+# Gradle
+.gradle/
+build/
+!gradle/wrapper/gradle-wrapper.jar
+!**/src/main/**/build/
+!**/src/test/**/build/
+
+# Kotlin cache & artifacts
+.kotlin/
+out/
+!**/src/main/**/out/
+!**/src/test/**/out/
+
+# IntelliJ Kotlin project artifacts
+.idea/modules.xml
+.idea/jarRepositories.xml
+.idea/compiler.xml
+.idea/libraries/
+*.iml
