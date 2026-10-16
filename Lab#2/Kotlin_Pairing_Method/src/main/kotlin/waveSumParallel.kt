@@ -36,7 +36,7 @@ suspend fun waveSumParallel(array: IntArray) {
         val activeCoroutines = if (totalPairs < 20_000) 1 else min(totalPairs, concurrency)
 
         val waveDurationNanos = measureNanoTime {
-            // Якщо пар лишилося зовсім мало (наприклад, менше 20_000),
+            // Якщо пар лишилося менше 20_000,
             // створення об'єктів корутин та перемикання контексту будуть повільнішими за саме додавання.
             if (totalPairs < 20_000) {
                 for (i in 0 until totalPairs) {
