@@ -4,4 +4,6 @@ Repository for assignments from "Parallel Programming for Multi-Processor Comput
 Contains:
 1. <b>Lab №1</b>: Parallelization of the array element sum calculation algorithm;
 
-2. <b>Lab №2</b>: Parallelization of the algorithm for calculating the sum of array elements using the doubling method (wave algorithm)
+2. <b>Lab №2</b>: Parallelization of the algorithm for calculating the sum of array elements using the doubling method (wave algorithm);
+
+3. <b>Lab №3</b>: Distributed cluster computing using OpenMPI and Canonical Multipass (distributed array sum and inter-node pairwise wave reduction).
